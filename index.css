@@ -1,0 +1,23 @@
+h2{
+
+    margin-left: 60px;
+    font-size: 45px;
+    color: aqua;
+}
+
+td{
+    text-align: center;
+
+}
+
+body{
+    font-size: 20px;
+    background-color: darkolivegreen;
+}
+
+
+.demo{
+    background-color: crimson;
+    font-size: 25px;
+    
+}

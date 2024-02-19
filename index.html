@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+</head>
+<body>
+<h2> Student Form </h2>
+<hr>
+<form> 
+<table>
+<tr>
+<td > Enter your name </td>
+<td> <input type="text" id="txtName"></td>
+</tr>
+<tr>
+    <td > Enter your last name </td>
+    <td> <input type="text" id="txtName"></td>
+    </tr>
+<tr>
+<td> Enter password </td>
+<td> <input type="password" id="txtPwd"></td>
+</tr>
+<tr>
+<td> Enter your address </td>
+<td> <textarea id="txtAddress" rows="5" cols="16"> Provide the address...
+</textarea>
+</td>
+</tr>
+<tr>
+<td> Select your gender </td>
+<td> <input type="radio" name="gender" id=”M” value="m" checked>
+<label for="M">Male<br>
+<input type="radio" name="gender" id=”F” value="f">
+<label for="F"> Female<br>
+</td>
+</tr>
+<tr>
+<td> Select City </td>
+<td> <select name="cities">
+<option value="H"> Hyderabad </option>
+<option value="B"> Bangalore </option>
+<option value="P"> Pune </option>
+<option value="M"> Mumbai </option>
+</select>
+</td>
+</tr><tr>
+<tr>
+<td> Select your skills </td>
+<td> <select name="skills" size="3" multiple>
+<option value="NET"> MS.NET </option>
+<option value="RD"> RDBMS </option>
+<option value="UI"> UI </option>
+<option value="Java"> Java </option>
+<option value="TS"> Testing </option>
+<option value="Network"> Networking </option>
+<option value="Aws">Aws</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td> Select your hobbies </td>
+<td> <input type="checkbox" name="hobby" value="sleeping">Sleeping
+<input type="checkbox" name="hobby" value="reading">Reading
+<input type="checkbox" name="hobby" value="Movies">Watching Movies
+<input type="checkbox"name ="hobby"value="Swiming">Swiming
+</td>
+</tr>
+<tr>
+<td> Enter your birthday </td>
+<td>
+<input type="date" name="bday" max="2015-12-31" min="1990-01-01">
+</td>
+</tr>
+<tr>
+<td> Upload your resume </td>
+<td><input type="file" name="my resume"> </td>
+</tr>
+<tr>
+<td> Enter Percentage scored </td>
+<td> <input type="number" name="percent" min="1" max="100"> </td>
+</table>
+<button class="demo">Submit</button>
+<button class="demo">Delete</button>
+<button class="demo">Update</button>
+</form>
+</body>
+</html>
